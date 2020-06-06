@@ -32,9 +32,9 @@ namespace Web
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
-                    "defaultRoute",
-                    "{controllers = Home}/{action = Index}/{id=?}"
-                    );
+                     "defaultRoute",
+                     "{controller=Home}/{action=Index}/{id?}"
+                     );
             });
         }
     }
