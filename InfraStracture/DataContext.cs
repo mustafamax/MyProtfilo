@@ -26,8 +26,8 @@ namespace InfraStracture
                 {
                     Id = Guid.NewGuid(),
                     Avatar = "avatar.jpg",
-                    FullName = "Khalid ESSAADANI",
-                    Profil = "Microsoft MVP / .NET Consultant"
+                    FullName = "Mustafa Al-Saffar",
+                    Profil = "Teacher , Web Developer"
                 }
                 );
         }
